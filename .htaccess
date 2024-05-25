@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([^/\.]+)/([^/\.]+)?$ product.php?type=$1&alias=$2
